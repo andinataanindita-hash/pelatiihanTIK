@@ -17,7 +17,7 @@ body {
   width: 150px;
   border-radius: 50%;
 }
-.kartu-profil img {
+.kartu-profil {
   /* . . . (kode dari slide sebelumnya) . . . */
 text-align: center; /* menengahkan semua text di dalam kartu */
 }
