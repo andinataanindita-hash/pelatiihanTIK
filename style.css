@@ -1,20 +1,23 @@
+/* Pengaturan gaya untuk seluruh halaman */
 body {
-  background-color: #FFFFE0; /* warna kuning cerah */
+  background-color: #FFFFE0; /* Warna latar belakang kuning cerah */
   font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-  color: #191970; /* warna teks utama (Biru Gelap) */
+  color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
+/* Pengaturan tampilan kartu profil */
 .kartu-profil {
-  width: 300px; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-  margin:v50px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
-  text-align: center; /* menengahkan semua text di dalam kartu */
+  width: 300px; /* Lebar kartu */
+  margin: 50px auto; /* PERBAIKAN: Menghapus huruf 'v' yang salah ketik (sebelumnya v50px), 'auto' membuat kartu berada di tengah */
+  padding: 20px; /* Jarak di dalam kartu */
+  background-color: white; /* Warna latar belakang kartu menjadi putih */
+  border-radius: 15px; /* Membuat sudut kartu menjadi melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* PERBAIKAN: Mengganti koma dengan titik pada tingkat transparansi (sebelumnya 0,1) */
+  text-align: center; /* Menengahkan seluruh teks di dalam kartu */
 }
 
+/* Pengaturan khusus untuk foto profil di dalam kartu */
 .kartu-profil img {
-  width: 150px;
-  border-radius: 50%;
+  width: 150px; /* Lebar foto */
+  border-radius: 50%; /* Membuat bentuk foto menjadi lingkaran penuh */
 }
